@@ -11,4 +11,8 @@
     <string name="minus_two">Minus two</string>
     <string name="button"><![CDATA[Button >]]></string>
     <string name="more"><![CDATA[Подробнее >]]></string>
+    <string name="_2">2</string>
+    <string name="sign">-</string>
+    <string name="celsius">°C</string>
+    <string name="frame_text">ИКВ 41</string>
 </resources>
