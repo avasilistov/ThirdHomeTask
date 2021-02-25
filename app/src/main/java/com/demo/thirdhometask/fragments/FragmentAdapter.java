@@ -1,4 +1,4 @@
-package com.demo.thirdhometask;
+package com.demo.thirdhometask.fragments;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

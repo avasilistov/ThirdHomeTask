@@ -15,4 +15,10 @@
     <string name="sign">-</string>
     <string name="celsius">°C</string>
     <string name="frame_text">ИКВ 41</string>
+    <string name="iweather">i-Weather</string>
+    <string name="sun">Sun</string>
+    <string name="location_access_required">The app needs access to your location for determine your city name.</string>
+    <string name="ok">OK</string>
+    <string name="location_permission_granted">Location permission granted</string>
+    <string name="location_access_denyed">Location access denyed. Unfortunately, the app can\'t to determine your city name. For grant location permission swape down.</string>
 </resources>
