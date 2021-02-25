@@ -9,6 +9,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
+import android.util.Log;
 
 
 import com.demo.thirdhometask.fragments.FragmentAdapter;
@@ -58,7 +59,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         tabLayoutMediator.attach();
-}
+
+
+
+
+
+    }
+
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Bundle arguments = getIntent().getExtras();
+        if (arguments != null) {
+            Double latitude = arguments.getDouble("latitude");
+            Double longitude = arguments.getDouble("longitude");
+            Log.i("zzz", latitude.toString());
+        }
+    }
 
     @Override
     public void onBackPressed() {
