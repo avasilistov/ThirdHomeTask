@@ -120,16 +120,7 @@ public class MainActivity extends AppCompatActivity {
             if (ContextCompat.checkSelfPermission(
                     MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) ==
                     PackageManager.PERMISSION_GRANTED) {
-                Snackbar.make(drawer, R.string.location_permission_granted, Snackbar.LENGTH_INDEFINITE)
-                        .setAction(R.string.ok, view -> {
                             requestCurrentLocation();
-                        }).show();
-            } else if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,
-                    Manifest.permission.ACCESS_FINE_LOCATION)) {
-                Snackbar.make(drawer, R.string.location_access_required, Snackbar.LENGTH_INDEFINITE)
-                        .setAction(R.string.ok, view -> {
-                            requestPermissionLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION);
-                        }).show();
             } else {
                 requestPermissionLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION);
             }
