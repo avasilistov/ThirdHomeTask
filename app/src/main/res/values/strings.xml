@@ -31,4 +31,10 @@
     <string name="location_updated">Location Updated: %1$s</string>
     <string name="on_gps">Do you want to turn on gps?</string>
     <string name="no">NO</string>
+    <string name="no_name_city">Swipe down to Refresh</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="location">"Location: "</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="yes">YES</string>
 </resources>
